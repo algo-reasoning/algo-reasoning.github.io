@@ -11,7 +11,7 @@ Saturday 10 December 2022, 5--8PM (UK Time)
 ### Location
 
 Virtual on Zoom.<br>
-**More details:** See [LoG website](https://logconference.org/schedule-tutorials/#neural-algorithmic-reasoning) for details.
+See [LoG website](https://logconference.org/schedule-tutorials/#neural-algorithmic-reasoning) for details.
 
 ### Abstract
 
