@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Motivation
-permalink: /overview/
+permalink: /motivation/
 ---
 
 **Date and time:** Saturday 10 December 2022, 5--8PM (UK Time)<br>
