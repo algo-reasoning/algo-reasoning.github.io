@@ -1,11 +1,11 @@
 # Site settings
-title: Graph Representation Learning
-description: 'NeurIPS 2019 Workshop'
-url: 'grlearning.github.io'
+title: Neural Algorithmic Reasoning
+description: 'LoG 2022 Tutorial'
+url: 'algo-reasoning.github.io'
 baseurl: '' 
 
 author:
-  name: 'Petar Veličković and William L. Hamilton'
+  name: 'Petar Veličković, Andreea Deac and Andrew Dudzik'
 
 defaults:
   -
