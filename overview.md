@@ -5,7 +5,7 @@ permalink: /overview/
 ---
 
 **Date and time:** Saturday 10 December 2022, 5--8PM (UK Time)<br>
-**Location:** Virtual on Zoom
+**Location:** Virtual on Zoom<br>
 **More details:** See [LoG website](https://logconference.org/schedule-tutorials/#neural-algorithmic-reasoning) for details.
 
 Neural networks that are able to reliably execute algorithmic computation may hold transformative potential to both machine learning and theoretical computer science. On one hand, they could enable the kind of extrapolative generalisation scarcely seen with deep learning models. On another, they may allow for running classical algorithms on inputs previously considered inaccessible to them.
