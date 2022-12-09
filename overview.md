@@ -1,33 +1,25 @@
 ---
 layout: post
-title: Overview
+title: Motivation
 permalink: /overview/
 ---
 
-**Date and time:** Friday 13 December 2019, 8:45AM -- 5:30PM<br>
-**Location:** Vancouver Convention Center, Vancouver, Canada, West Exhibition Hall A
+**Date and time:** Saturday 10 December 2022, 5--8PM (UK Time)<br>
+**Location:** Virtual on Zoom
+**More details:** See [LoG website](https://logconference.org/schedule-tutorials/#neural-algorithmic-reasoning) for details.
 
-Graph-structured data is ubiquitous throughout the natural and social sciences, from telecommunication networks to quantum chemistry. Building relational inductive biases into deep learning architectures is crucial if we want systems that can learn, reason, and generalize from this kind of data. Furthermore, graphs can be seen as a natural generalization of simpler kinds of structured data (such as images), and therefore, they represent a natural avenue for the next breakthroughs in machine learning.
+Neural networks that are able to reliably execute algorithmic computation may hold transformative potential to both machine learning and theoretical computer science. On one hand, they could enable the kind of extrapolative generalisation scarcely seen with deep learning models. On another, they may allow for running classical algorithms on inputs previously considered inaccessible to them.
 
-Recent years have seen a surge in research on graph representation learning, including techniques for deep graph embeddings, generalizations of convolutional neural networks to graph-structured data, and neural message-passing approaches inspired by belief propagation. These advances in graph neural networks and related techniques have led to new state-of-the-art results in numerous domains, including chemical synthesis, 3D-vision, recommender systems, question answering, and social network analysis. Perhaps the biggest testament to the increasing popularity of this area is the fact that four popular review papers have recently been published on the topic [1-4]—each attempting to unify different formulations of similar ideas across fields. This suggests that the topic has reached critical mass and requires a focused workshop to bring together researchers to identify impactful areas of interest, discuss how we can design new and better benchmarks, encourage discussion, and foster collaboration. 
+Both of these promises are shepherded by the neural algorithmic reasoning blueprint, which has been recently proposed in a [position paper](https://www.cell.com/patterns/pdf/S2666-3899(21)00099-4.pdf) by Petar Veličković and Charles Blundell. On paper, this is a remarkably elegant pipeline for reasoning on natural inputs which carefully leverages the tried-and-tested power of deep neural networks as feature extractors. In practice, how far did we actually take it?
 
-The workshop will consist of contributed talks, contributed posters, and invited talks on a wide variety of methods and problems in this area, including but not limited to:
-- Supervised deep learning on graphs (e.g., graph neural networks)
-- Interaction and relational networks
-- Unsupervised graph embedding methods
-- Deep generative models of graphs 
-- Deep learning for chemical/drug design
-- Deep learning on manifolds, point clouds, and for computer vision
-- Relational inductive biases (e.g., for reinforcement learning)
-- Benchmark datasets and evaluation methods
+In this tutorial, we aim to provide the foundations needed to answer three key questions of neural algorithmic reasoning: how to _develop_ neural networks that execute algorithmic computation, how to _deploy_ such neural networks in real-world problems, and how to _deepen_ their theoretical links to classical algorithms.
 
-We will welcome 4-page original research papers on work that has not previously been published in a machine learning conference or workshop. 
-All accepted papers will be presented as posters, with three contributed works being selected for an oral presentation. In addition to traditional research paper submissions, we will also welcome 1-page submissions describing open problems and challenges in the domain of graph representation learning.
-These open problems will be presented as short talks (5-10 minutes) immediately preceding a coffee break to facilitate and spark discussions. 
+Our tutorial will be presented from the ground up, in a way that is accessible to anyone with a basic computer science background. Hands-on coding segments will also be provided, showing how attendees can directly develop their ideas in graph representation learning on relevant algorithmic reasoning datasets (such as [CLRS-30](https://github.com/deepmind/clrs)), and then deploy them in downstream agents (e.g., in [reinforcement learning](https://papers.nips.cc/paper/2021/hash/82e9e7a12665240d13d0b928be28f230-Abstract.html)).
 
-The primary goal for this workshop is to facilitate community building; with hundreds of new researchers beginning projects in this area, we hope to bring them together to consolidate this fast-growing area of graph representation learning into a healthy and vibrant subfield. 
+The key outcome of our neural algorithmic reasoning tutorial will be to introduce the vibrant LoG audience to this emerging field (which is also within LoG's highlighted topic areas). Specifically, we aim for our tutorial's attendees to come away with the following takeaways:
 
-[1] Bronstein, M. M., Bruna, J., LeCun, Y., Szlam, A., & Vandergheynst, P. (2017). Geometric deep learning: going beyond euclidean data. IEEE Signal Processing Magazine, 34(4), 18-42.<br>
-[2] Hamilton, W. L., Ying, R., & Leskovec, J. (2017). Representation learning on graphs: Methods and applications. IEEE Data Engineering Bulletin. <br>
-[3] Battaglia, P. W., Hamrick, J. B., Bapst, V., Sanchez-Gonzalez, A., Zambaldi, V., Malinowski, M., ... & Gulcehre, C. (2018). Relational inductive biases, deep learning, and graph networks. arXiv preprint arXiv:1806.01261.<br>
-[4] Goyal, P., & Ferrara, E. (2018). Graph embedding techniques, applications, and performance: A survey. Knowledge-Based Systems, 151, 78-94.<br>
+* Understand why it is a good idea to build neural networks that model algorithmic computation;
+* Cover theoretical underpinnings of neural algorithmic reasoning, such as algorithmic alignment;
+* Follow hands-on examples on how to develop algorithmically-aligned GNNs on relevant datasets;
+* Concretise the neural algorithmic reasoning blueprint by deploying such a GNN in an RL agent;
+* Appreciate using emerging techniques (e.g. Category Theory) to build potent algorithmic GNNs.
